@@ -25,7 +25,7 @@ public class CollegeApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		//Getting list from service
+		//Getting list from
 		List<Department> allDept = service.getAllDepartments();
 		
 		String url ="https://www.gniotgroup.edu.in/blog/wp-content/uploads/2021/07/unnamed-1280x720.jpg";
